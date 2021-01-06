@@ -5,12 +5,12 @@ sample project with junit tests attaching test execution results to testcases in
 ## PREREQUISITES
 
 * adpatavista plugin is installed on your jira instance
-* testcase e.g.: GAUT-TS exists
+* testcase e.g.: GAUT-T2 exists
 
 # How it works
 
-When you mark test method with allure annotation @TmsLink("GAUT-TS"), After the test execution
-AdaptavistaWatcherExtension finds the testcase with id: GAUT-TS in Jira and attaches execution record with PASS/FAIL
+When you mark test method with allure annotation @TmsLink("GAUT-T2"), After the test execution
+AdaptavistaWatcherExtension finds the testcase with id: GAUT-T2 in Jira and attaches execution record with PASS/FAIL
 result.
 
 ## How to run
